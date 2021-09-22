@@ -1,0 +1,73 @@
+$spacing_negative_0: -0px;
+$spacing_negative_px: -1px;
+$spacing_negative_0-5: -0.125rem;
+$spacing_negative_1: -0.25rem;
+$spacing_negative_1-5: -0.375rem;
+$spacing_negative_2: -0.5rem;
+$spacing_negative_2-5: -0.625rem;
+$spacing_negative_3: -0.75rem;
+$spacing_negative_3-5: -0.875rem;
+$spacing_negative_4: -1rem;
+$spacing_negative_5: -1.25rem;
+$spacing_negative_6: -1.5rem;
+$spacing_negative_7: -1.75rem;
+$spacing_negative_8: -2rem;
+$spacing_negative_9: -2.25rem;
+$spacing_negative_10: -2.5rem;
+$spacing_negative_11: -2.75rem;
+$spacing_negative_12: -3rem;
+$spacing_negative_14: -3.5rem;
+$spacing_negative_16: -4rem;
+$spacing_negative_20: -5rem;
+$spacing_negative_24: -6rem;
+$spacing_negative_28: -7rem;
+$spacing_negative_32: -8rem;
+$spacing_negative_36: -9rem;
+$spacing_negative_40: -10rem;
+$spacing_negative_44: -11rem;
+$spacing_negative_48: -12rem;
+$spacing_negative_52: -13rem;
+$spacing_negative_56: -14rem;
+$spacing_negative_60: -15rem;
+$spacing_negative_64: -16rem;
+$spacing_negative_72: -18rem;
+$spacing_negative_80: -20rem;
+$spacing_negative_96: -24rem;
+
+$spacing_negative: (
+  0: $spacing_negative_0,
+  px: $spacing_negative_px,
+  0.5: $spacing_negative_0-5,
+  1: $spacing_negative_1,
+  1.5: $spacing_negative_1-5,
+  2: $spacing_negative_2,
+  2.5: $spacing_negative_2-5,
+  3: $spacing_negative_3,
+  3.5: $spacing_negative_3-5,
+  4: $spacing_negative_4,
+  5: $spacing_negative_5,
+  6: $spacing_negative_6,
+  7: $spacing_negative_7,
+  8: $spacing_negative_8,
+  9: $spacing_negative_9,
+  10: $spacing_negative_10,
+  11: $spacing_negative_11,
+  12: $spacing_negative_12,
+  14: $spacing_negative_14,
+  16: $spacing_negative_16,
+  20: $spacing_negative_20,
+  24: $spacing_negative_24,
+  28: $spacing_negative_28,
+  32: $spacing_negative_32,
+  36: $spacing_negative_36,
+  40: $spacing_negative_40,
+  44: $spacing_negative_44,
+  48: $spacing_negative_48,
+  52: $spacing_negative_52,
+  56: $spacing_negative_56,
+  60: $spacing_negative_60,
+  64: $spacing_negative_64,
+  72: $spacing_negative_72,
+  80: $spacing_negative_80,
+  96: $spacing_negative_96
+);

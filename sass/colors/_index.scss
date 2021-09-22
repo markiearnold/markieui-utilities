@@ -1,0 +1,22 @@
+@import "blue";
+@import "gray";
+@import "green";
+@import "indigo";
+@import "pink";
+@import "purple";
+@import "red";
+@import "yellow";
+
+$colors: (
+  blue: $blue,
+  gray: $gray,
+  green: $green,
+  indigo: $indigo,
+  pink: $pink,
+  purple: $purple,
+  red: $red,
+  yellow: $yellow
+);
+
+$white: #ffffff;
+$black: #000000;

@@ -1,0 +1,13 @@
+$border_width_0: 0;
+$border_width_1: 1;
+$border_width_2: 2;
+$border_width_4: 4;
+$border_width_8: 8;
+
+$border_width: (
+  0: $border_width_0,
+  1: $border_width_1,
+  2: $border_width_2,
+  4: $border_width_4,
+  8: $border_width_8
+);

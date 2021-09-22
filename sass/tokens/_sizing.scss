@@ -1,0 +1,57 @@
+$sizing_1-2: 50%;
+$sizing_1-3: 33.333333%;
+$sizing_2-3: 66.666667%;
+$sizing_1-4: 25%;
+$sizing_2-4: 50%;
+$sizing_3-4: 75%;
+$sizing_1-5: 20%;
+$sizing_2-5: 40%;
+$sizing_3-5: 60%;
+$sizing_4-5: 80%;
+$sizing_1-6: 16.666667%;
+$sizing_2-6: 33.333333%;
+$sizing_3-6: 50%;
+$sizing_4-6: 66.666667%;
+$sizing_5-6: 83.333333%;
+$sizing_1-12: 8.333333%;
+$sizing_2-12: 16.666667%;
+$sizing_3-12: 25%;
+$sizing_4-12: 33.333333%;
+$sizing_5-12: 41.666667%;
+$sizing_6-12: 50%;
+$sizing_7-12: 58.333333%;
+$sizing_8-12: 66.666667%;
+$sizing_9-12: 75%;
+$sizing_10-12: 83.333333%;
+$sizing_11-12: 91.666667%;
+$sizing_full: 100%;
+
+$sizing: (
+  half: $sizing_1-2,
+  one-third: $sizing_1-3,
+  two-thirds: $sizing_2-3,
+  one-forth: $sizing_1-4,
+  two-forths: $sizing_2-4,
+  three-forths: $sizing_3-4,
+  one-fifth: $sizing_1-5,
+  two-fifths: $sizing_2-5,
+  three-fifths: $sizing_3-5,
+  four-fifths: $sizing_4-5,
+  one-sixth: $sizing_1-6,
+  two-sixths: $sizing_2-6,
+  three-sixths: $sizing_3-6,
+  four-sixths: $sizing_4-6,
+  five-sixths: $sizing_5-6,
+  one-twelfth: $sizing_1-12,
+  two-twelfths: $sizing_2-12,
+  three-twelfths: $sizing_3-12,
+  four-twelfths: $sizing_4-12,
+  five-twelfths: $sizing_5-12,
+  six-twelfths: $sizing_6-12,
+  seven-twelfths: $sizing_7-12,
+  eight-twelfths: $sizing_8-12,
+  nine-twelfths: $sizing_9-12,
+  ten-twelfths: $sizing_10-12,
+  eleven-twelfths: $sizing_11-12,
+  full: $sizing_full
+);

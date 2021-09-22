@@ -1,0 +1,53 @@
+$actions: (
+  active: "active",
+  hover: "hover",
+  focus: "focus",
+  before: "before",
+  after: "after"
+);
+
+@mixin class-attr($attr, $value, $class_value, $action: null) {
+  $display_class: "";
+
+  @if $class_value {
+    $display_class: #{-#{$class_value}};
+  }
+
+  &#{$display_class} {
+    @if $action {
+      @if $action == "active" {
+        &:active {
+          #{$attr}: $value;
+        }
+      }
+
+      @if $action == "hover" {
+        &:hover {
+          #{$attr}: $value;
+        }
+      }
+
+      @if $action == "focus" {
+        &:focus {
+          #{$attr}: $value;
+        }
+      }
+
+      @if $action == "before" {
+        &::before {
+          content: "";
+          #{$attr}: $value;
+        }
+      }
+
+      @if $action == "after" {
+        &::after {
+          content: "";
+          #{$attr}: $value;
+        }
+      }
+    } @else {
+      #{$attr}: $value;
+    }
+  }
+}

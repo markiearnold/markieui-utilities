@@ -1,0 +1,59 @@
+$font_size_xs: 0.75rem;
+$font_size_sm: 0.875rem;
+$font_size_md: 1rem;
+$font_size_lg: 1.125rem;
+$font_size_xl: 1.25rem;
+$font_size_2xl: 1.5rem;
+$font_size_3xl: 1.875rem;
+$font_size_4xl: 2.25rem;
+$font_size_5xl: 3rem;
+$font_size_6xl: 3.75rem;
+$font_size_7xl: 4.5rem;
+$font_size_8xl: 6rem;
+$font_size_9xl: 8rem;
+
+$font_size_line_height_xs: 1rem;
+$font_size_line_height_sm: 1.25rem;
+$font_size_line_height_md: 1.5rem;
+$font_size_line_height_lg: 1.75rem;
+$font_size_line_height_xl: 1.75rem;
+$font_size_line_height_2xl: 2rem;
+$font_size_line_height_3xl: 2.25rem;
+$font_size_line_height_4xl: 2.5rem;
+$font_size_line_height_5xl: 1;
+$font_size_line_height_6xl: 1;
+$font_size_line_height_7xl: 1;
+$font_size_line_height_8xl: 1;
+$font_size_line_height_9xl: 1;
+
+$font_size: (
+  xs: $font_size_xs,
+  sm: $font_size_sm,
+  md: $font_size_md,
+  lg: $font_size_lg,
+  xl: $font_size_xl,
+  2xl: $font_size_2xl,
+  3xl: $font_size_3xl,
+  4xl: $font_size_4xl,
+  5xl: $font_size_5xl,
+  6xl: $font_size_6xl,
+  7xl: $font_size_7xl,
+  8xl: $font_size_8xl,
+  9xl: $font_size_9xl
+);
+
+$font_style: (
+  (xs, $font_size_xs, $font_size_line_height_xs),
+  (sm, $font_size_sm, $font_size_line_height_sm),
+  (md, $font_size_md, $font_size_line_height_md),
+  (lg, $font_size_lg, $font_size_line_height_lg),
+  (xl, $font_size_xl, $font_size_line_height_xl),
+  (2xl, $font_size_2xl, $font_size_line_height_2xl),
+  (3xl, $font_size_3xl, $font_size_line_height_3xl),
+  (4xl, $font_size_4xl, $font_size_line_height_4xl),
+  (5xl, $font_size_5xl, $font_size_line_height_5xl),
+  (6xl, $font_size_6xl, $font_size_line_height_6xl),
+  (7xl, $font_size_7xl, $font_size_line_height_7xl),
+  (8xl, $font_size_8xl, $font_size_line_height_8xl),
+  (9xl, $font_size_9xl, $font_size_line_height_9xl)
+);

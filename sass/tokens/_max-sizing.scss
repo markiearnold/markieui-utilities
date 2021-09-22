@@ -1,0 +1,37 @@
+$max_sizing_0: 0rem;
+$max_sizing_none: none;
+$max_sizing_xs: 20rem;
+$max_sizing_sm: 24rem;
+$max_sizing_md: 28rem;
+$max_sizing_lg: 32rem;
+$max_sizing_xl: 36rem;
+$max_sizing_2xl: 42rem;
+$max_sizing_3xl: 48rem;
+$max_sizing_4xl: 56rem;
+$max_sizing_5xl: 64rem;
+$max_sizing_6xl: 72rem;
+$max_sizing_7xl: 80rem;
+$max_sizing_full: 100%;
+$max_sizing_min: min-content;
+$max_sizing_max: max-content;
+$max_sizing_prose: 65ch;
+
+$max_sizing: (
+  0: $max_sizing_0,
+  none: $max_sizing_none,
+  xs: $max_sizing_xs,
+  sm: $max_sizing_sm,
+  md: $max_sizing_md,
+  lg: $max_sizing_lg,
+  xl: $max_sizing_xl,
+  2xl: $max_sizing_2xl,
+  3xl: $max_sizing_3xl,
+  4xl: $max_sizing_4xl,
+  5xl: $max_sizing_5xl,
+  6xl: $max_sizing_6xl,
+  7xl: $max_sizing_7xl,
+  full: $max_sizing_full,
+  min: $max_sizing_min,
+  max: $max_sizing_max,
+  prose: $max_sizing_prose
+);

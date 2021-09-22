@@ -1,0 +1,15 @@
+$letter_spacing_tighter: -0.05em;
+$letter_spacing_tight: -0.025em;
+$letter_spacing_normal: 0em;
+$letter_spacing_wide: 0.025em;
+$letter_spacing_wider: 0.05em;
+$letter_spacing_widest: 0.1em;
+
+$letter_spacing: (
+  tighter: $letter_spacing_tighter,
+  tight: $letter_spacing_tight,
+  normal: $letter_spacing_normal,
+  wide: $letter_spacing_wide,
+  wider: $letter_spacing_wider,
+  widest: $letter_spacing_widest
+);

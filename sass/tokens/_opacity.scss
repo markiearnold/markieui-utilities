@@ -1,0 +1,45 @@
+$opacity_0: 0;
+$opacity_5: 0.5;
+$opacity_10: 0.1;
+$opacity_15: 0.15;
+$opacity_20: 0.2;
+$opacity_25: 0.25;
+$opacity_30: 0.3;
+$opacity_35: 0.35;
+$opacity_40: 0.4;
+$opacity_45: 0.45;
+$opacity_50: 0.5;
+$opacity_55: 0.55;
+$opacity_60: 0.6;
+$opacity_65: 0.65;
+$opacity_70: 0.7;
+$opacity_75: 0.75;
+$opacity_80: 0.8;
+$opacity_85: 0.85;
+$opacity_90: 0.9;
+$opacity_95: 0.95;
+$opacity_100: 1;
+
+$opacity: (
+  0: $opacity_0,
+  5: $opacity_5,
+  10: $opacity_10,
+  15: $opacity_15,
+  20: $opacity_20,
+  25: $opacity_25,
+  30: $opacity_30,
+  35: $opacity_35,
+  40: $opacity_40,
+  45: $opacity_45,
+  50: $opacity_50,
+  55: $opacity_55,
+  60: $opacity_60,
+  65: $opacity_65,
+  70: $opacity_70,
+  75: $opacity_75,
+  80: $opacity_80,
+  85: $opacity_85,
+  90: $opacity_90,
+  95: $opacity_95,
+  100: $opacity_100
+);

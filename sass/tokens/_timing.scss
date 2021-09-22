@@ -1,0 +1,19 @@
+$timing_75: 75ms;
+$timing_100: 100ms;
+$timing_150: 150ms;
+$timing_200: 200ms;
+$timing_300: 300ms;
+$timing_500: 500ms;
+$timing_700: 700ms;
+$timing_1000: 1000ms;
+
+$timing: (
+  75: $timing_75,
+  100: $timing_100,
+  150: $timing_150,
+  200: $timing_200,
+  300: $timing_300,
+  500: $timing_500,
+  700: $timing_700,
+  1000: $timing_1000
+);
